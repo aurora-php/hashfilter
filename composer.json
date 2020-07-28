@@ -1,0 +1,23 @@
+{
+    "name": "octris/hashfilter",
+    "description": "Stream filter for incremental hashing.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/octris/hashfilter",
+    "authors": [
+        {
+            "name": "Harald Lapp",
+            "email": "harald@octctris.org"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Octris\\Streamfilter\\": "libs/Streamfilter"
+        }
+    }
+}
